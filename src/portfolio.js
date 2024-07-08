@@ -1,4 +1,4 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
+
 import LaunchIcon from '@mui/icons-material/Launch';
 import { Link } from '@mui/material';
 

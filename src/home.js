@@ -2,7 +2,7 @@ import {useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
+
 
 export default function Home() {
     const text = "FRONT END DEVELOPER";
