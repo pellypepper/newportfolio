@@ -956,16 +956,16 @@ animation: left 2s alternate;
     border-radius: 45% 15% 15% 45% / 25% 45% 45% 25%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 575px) {
   body{
     height: 150vh;
   }
   .App{
-    padding: 10px;
+  
     overflow-y: scroll;
    grid-template-columns: 20% 80%;
    grid-template-rows: 100%;
-   gap: 0px;
+   column-gap: 20px;
    height: 150vh;
    grid-template-areas: "nav-container outlet-wrapper";
 
@@ -973,13 +973,13 @@ animation: left 2s alternate;
   }
   .nav-container {
    position: fixed;
-   left: 2%;
+   left: 4%;
   grid-area: nav-container;
 
   border-radius: 5px;
     margin-top: 4rem;
    width: 20%;
-   margin-left:  .5rem;
+
    height: 80vh;
    z-index: 999;
   }
@@ -1001,6 +1001,10 @@ animation: left 2s alternate;
   grid-area: outlet-wrapper;
 
  }
+ .home-container{
+  width: 100%;
+  padding: 0;
+ }
  .home-wrapper{
 
   display: grid;
@@ -1013,12 +1017,14 @@ grid-template-areas: "home-image-container"
   width: 100%;
    height: 100vh;
  align-items: center;
- 
+
+
  }
 .home-text{
   grid-area: home-text;
   margin-top: 1rem;
-  
+ 
+
 }
  
 .home-text h5{
@@ -1026,24 +1032,32 @@ grid-template-areas: "home-image-container"
 }
 .home-text h1{
  color:  black;
+ font-size: 1.6rem;
 }
 .home-container .home-text h5 span{
 
- font-size: 1.2rem;
+ font-size: .9rem;
  font-weight: bolder;
+
+
 }
 .home-text-middle{
  margin-top: .5rem;
- width: 350px;
+ display: flex;
+ flex-wrap: wrap;
+  width: 100%;
 }
 .home-icon{
- width: 350px;
- 
+
+ width: 100%;
+}
+.home-text button{
+  width: 70%;
 }
 .home-image-container{
 
 grid-area: home-image-container;
-width: 350px;
+width: 100%;
 height: 350px;
 }
 /* @keyframes flowout {
@@ -1081,9 +1095,16 @@ to{
 }
 .about-right >p{
   margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: max-content;
+ 
 }
+.about-right 
 .small-text-wrapper{
   margin-top: 1rem;
+  
 }
 .about-right button{
   margin-top: 2rem;
@@ -1143,4 +1164,10 @@ margin-top: 2rem;
   
 }
 
+}
+
+@media (max-width: 320px){
+  .nav-container .nav-wrapper nav p{
+    font-size: 10px;
+  }
 }
