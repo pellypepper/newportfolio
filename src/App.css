@@ -956,7 +956,7 @@ animation: left 2s alternate;
     border-radius: 45% 15% 15% 45% / 25% 45% 45% 25%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   body{
     height: 150vh;
   }
