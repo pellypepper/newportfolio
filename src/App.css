@@ -729,7 +729,6 @@ to{
 .portfolio-container{
   width: 100%;
   scroll-behavior: smooth;
-
  height: max-content;
  background-color: inherit;
   padding: 20px;
@@ -1148,8 +1147,8 @@ padding: 20p;
   }
   
   .service-subwrapper-container{
-   width: 50%;
-
+    width: max-content;
+ 
   }
   .education-wrapper{
   width: 100%;
