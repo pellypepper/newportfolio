@@ -81,7 +81,7 @@ body{
  display: flex;
  justify-content: space-around;
  align-items: center;
- padding: 10px;
+ padding: 5px;
 cursor: pointer;
 }
 
@@ -572,8 +572,8 @@ overflow: hidden;
 
 .service-container{
   width: 100%;
- border: 2px solid red;
-  height:200vh;
+
+
 
   padding: 20px;
 }
@@ -584,16 +584,18 @@ overflow: hidden;
 
   height: 50px;
   text-align: center;
- 
-  margin: auto;
+  
+
+   margin: auto;
   margin-top: 2rem;
 }
 .service-subwrapper-container{
   cursor: pointer;
   display: flex;
-  justify-content: space-around;
-
-
+  gap: 20px;
+  width: 400px;
+ justify-content: space-around;
+   
 }
 .service-subwrapper-container h3{
 padding: 10px;
@@ -603,7 +605,7 @@ padding: 10px;
 .service-wrapper{
   display: flex;
   flex-direction: column;
-  border: 2px solid yellow;
+
   height: max-content;
 }
 .service-subwrapper-container h3:hover{
@@ -687,7 +689,7 @@ to{
   padding: 0;
   height: 600px;
  
-  margin-top: 4rem;
+ 
   display: flex;
   align-items: center;
   
@@ -696,7 +698,7 @@ to{
 .what-wrapper{
   margin: 0 auto;
   width: 90%;
-  height: 80%;
+  height: max-content;
   box-shadow: 10px 10px 24px 10px var(--box-shadow);
   border-radius: 10px;
   color: var(--first-text-color);
@@ -709,7 +711,7 @@ to{
 }
 .what-header{
   text-align: center;
-  margin-top: -5rem;
+
 }
 .what-box{
   display: flex;
@@ -747,7 +749,7 @@ to{
 .portfolio-wrapper h1{
   text-align: center;
   margin-top: 2rem;
-  font-size: ;
+
   animation: port-text 2s linear;
 }
 
@@ -765,7 +767,7 @@ to{
   margin-top: 1.5rem;
   justify-content: space-around;
   display: flex;
-  width: 100%;
+ 
 }
 .react-web-container{
   flex-direction: row;
@@ -773,7 +775,7 @@ to{
   margin-top: 1.5rem;
   justify-content: space-around;
   display: flex;
-  width: 100%;
+
  
 }
 .portfolio-btn{
@@ -1001,8 +1003,12 @@ animation: left 2s alternate;
   .nav-wrapper nav{
    flex-direction: column;
   }
+  .nav-container .nav-wrapper h1{
+    font-size: 1.2rem;
+  }
   .nav-wrapper nav p{
    margin-top: 1rem;
+   font-size: 13px;
  }
  .outlet-wrapper{
   width: 80%;
@@ -1140,6 +1146,10 @@ padding: 20p;
   .service-container{
     padding: 0;
   }
+  .service-subwrapper-container{
+  width: 300px;
+ justify-content: space-between;
+  }
   .education-wrapper{
   width: 100%;
   column-gap: 10px;
@@ -1181,6 +1191,10 @@ margin-top: 2rem;
 .normal-web-container, .react-web-container{
   flex-direction: column;
 
+}
+.portfolio-box {
+  width: 200px;
+  height: 200px;
 }
 .contact-wrapper{
   width: 120%;
