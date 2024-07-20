@@ -81,11 +81,11 @@ export default function Portfolio() {
 
 
 
-                        <p>Portfolio Website</p>
+                        <p>New Portfolio Website</p>
 
                         <div className='portfolio-btn'>
-                            <a href="https://github.com/pellypepper/portfolio" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: 'white' }} /></a>
-                            <Link href="https://pellyportfolio.netlify.app/portfolio" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/pellypepper/newportfolio" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: 'white' }} /></a>
+                            <Link href="https://pellynewportfolio.netlify.app/portfolio" target="_blank" rel="noopener noreferrer">
                                 <LaunchIcon fontSize="large" style={{ color: 'white' }} />
                             </Link>
                         </div>
@@ -96,11 +96,11 @@ export default function Portfolio() {
 
 
 
-                        <p>Portfolio Website</p>
+                        <p>First React Website</p>
 
                         <div className='portfolio-btn'>
-                            <a href="https://github.com/pellypepper/banking-app" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: 'white' }} /></a>
-                            <Link href="https://pellyportfolio.netlify.app/portfolio" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/pellypepper/firstreactwork" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: 'white' }} /></a>
+                            <Link href="https://main--pellyfirstreactwork.netlify.app/" target="_blank" rel="noopener noreferrer">
                                 <LaunchIcon fontSize="large" style={{ color: 'white' }} />
                             </Link>
                         </div>
