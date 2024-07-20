@@ -46,11 +46,11 @@ export default function Portfolio() {
 
 
 
-                        <p>E-commerce Website</p>
+                        <p>Puzzle Game Website</p>
 
                         <div className='portfolio-btn'>
-                            <a href="https://github.com/pellypepper/e-commerce" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: 'white' }} /></a>
-                            <Link href="https://pellye-commerce.netlify.app/e-commerce" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/pellypepper/puzzle game" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: 'white' }} /></a>
+                            <Link href="https://main--pellypuzzle.netlify.app/puzzle game" target="_blank" rel="noopener noreferrer">
                                 <LaunchIcon fontSize="large" style={{ color: 'white' }} />
                             </Link>
                         </div>
