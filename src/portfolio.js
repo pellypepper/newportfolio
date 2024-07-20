@@ -85,7 +85,7 @@ export default function Portfolio() {
 
                         <div className='portfolio-btn'>
                             <a href="https://github.com/pellypepper/newportfolio" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: 'white' }} /></a>
-                            <Link href="https://pellynewportfolio.netlify.app/portfolio" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://pellynewportfolio.netlify.app" target="_blank" rel="noopener noreferrer">
                                 <LaunchIcon fontSize="large" style={{ color: 'white' }} />
                             </Link>
                         </div>
