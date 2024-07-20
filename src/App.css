@@ -677,17 +677,15 @@ to{
        display: grid;
 }
 .service-what{
-  position: absolute;
-  left: 0;
-  right: 0;
- 
-  height: 600px;
+  width: 100%;
+  margin-top: 3rem;
+  height: max-content;
 }
 .what-container{
   width: 100%;
   margin: 0;
   padding: 0;
-  height: 600px;
+  height: max-content;
  
  
   display: flex;
@@ -697,7 +695,7 @@ to{
 }
 .what-wrapper{
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   height: max-content;
   box-shadow: 10px 10px 24px 10px var(--box-shadow);
   border-radius: 10px;
@@ -1176,7 +1174,7 @@ margin-top: 2rem;
  
  }
  .what-wrapper{
-  width: 100%;
+
 
  }
  .what-header{
@@ -1202,6 +1200,9 @@ margin-top: 2rem;
 
   grid-template-columns: 1fr;
   
+}
+.contact-left{
+  align-items: start;
 }
 .contact-right{
   width: 100%;
