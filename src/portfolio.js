@@ -96,17 +96,16 @@ export default function Portfolio() {
 
 
 
-                        <p>First React Website</p>
+                        <p>Onlne Market, E-Commerce Website</p>
 
                         <div className='portfolio-btn'>
-                            <a href="https://github.com/pellypepper/firstreactwork" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: 'white' }} /></a>
-                            <Link href="https://main--pellyfirstreactwork.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/pellypepper/onlinemarket" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: 'white' }} /></a>
+                            <Link href="https://pellyonlinemarket.netlify.app/" target="_blank" rel="noopener noreferrer">
                                 <LaunchIcon fontSize="large" style={{ color: 'white' }} />
                             </Link>
                         </div>
 
                     </div>
-
 
 
                 </div>
